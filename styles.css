@@ -1,0 +1,115 @@
+*{
+    background-color:#FFF0F5;
+    text-align: center;
+    
+  }
+  #logo{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:50%;
+    padding: 5%
+  }
+  .topbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+    position:fixed ;
+    top: 0;
+    width: 100%;
+    display:flex
+  }
+  
+  .topbar li {
+    flex-direction: center;
+    border-right: 1px solid #bbb;
+   
+  }
+  
+  .topbar a:hover {
+    background-color: #ddd;
+    color: black;}
+  
+  
+  .topbar li a {
+   
+    color: palevioletred;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #666;
+    flex-direction:ce
+  }
+  .intro{
+    text-align:center;
+  }
+  .inventory li{
+    list-style-type: none;
+  }
+  .inventory li a{
+    color:red;
+    text-decoration:none;
+    list-style-type: none;
+  }
+  .productoverview{
+    color:red
+  }
+  a{
+    color:red;
+    text-decoration:none;
+    list-style-type: none;
+  }
+  .businessdescription{
+    display:flex;
+    background-color:#7fffd4;
+   
+  }
+   .businessdescription h2{
+    background-color:#7fffd4;
+    color:brown;
+    text-align:center;
+    margin-left:auto;
+     margin-right:auto;
+  }
+  .preview{
+    display:flex;
+    flex-direction:column;
+    background-color:#5f9ea0;
+  }
+  .preview h3{
+    background-color:#5f9ea0;
+      margin-left:auto;
+    margin-right:auto;
+  color:pink;
+  }
+  .inventory{
+    background-color:green;
+  }
+  .inventory li{
+    background-color:green;
+    color:white;
+  }
+  .inventory a{
+    background-color:green;
+    
+  }
+  .inventory ul a{
+    background-color:green;
+    color:white;
+  }
+  .inventory ul{
+    background-color:green;
+  }
+  /*list of inventory above*/
+  .productoverview{
+    display:flex;
+    flex-direction:column;
+    background-color:ff7f50;
+  }
+  .contacts{background-color:gray;}
+  .contacts p {background-color:gray;}
+  .contacts h3{background-color:gray;}
+  .contacts a {background-color:gray;
+  color: white;}
